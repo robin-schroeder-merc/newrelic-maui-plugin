@@ -31,6 +31,12 @@
         {
             NewRelic.MAUI.Plugin.CrossNewRelic.Current.CrashNow();
         }
+
+        private async void OnPage1Clicked(object sender, EventArgs e)
+        {
+            //push page 1 on the stack
+            await ((Shell)App.Current.MainPage).GoToAsync("newPage1");
+        }
     }
 
 }

@@ -66,4 +66,10 @@
 	  <ProjectReference Include="..\NewRelic.MAUI.Plugin\NewRelic.MAUI.Plugin.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

@@ -37,6 +37,13 @@
                 SemanticProperties.Hint="Crashes the app"
                 Clicked="OnCrashClicked"
                 HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="Page1Btn"
+                Text="Navigate to New Page 1" 
+                SemanticProperties.Hint="Page 1"
+                Clicked="OnPage1Clicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 
